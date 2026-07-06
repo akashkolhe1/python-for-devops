@@ -33,7 +33,7 @@ Pick a scope and make it clean, commented, and runnable:
 - Impressive: add the AWS report endpoint and/or the local AI log agent.
 
 The reference implementation of the "Solid + AWS" tier already lives in
-[`../apis-with-fastapi/solution/devops-utilities-api`](../apis-with-fastapi/solution/devops-utilities-api).
+[`../apis-with-fastapi/devops-utilities-api`](../apis-with-fastapi/devops-utilities-api).
 Use it as your starting point, or build your own.
 
 ## Deliverables

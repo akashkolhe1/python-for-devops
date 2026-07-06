@@ -15,8 +15,8 @@ need.
 By the end, you'll be able to say (and prove) "I use Python to solve DevOps
 problems."
 
-Each module is self-contained: it has its own README, runnable examples,
-practice exercises, and worked solutions, plus any sample data it needs.
+Each module is self-contained: its own README with runnable scripts, a practice
+section to try yourself, and any sample data it needs.
 
 ---
 
@@ -38,16 +38,10 @@ naturally):
 | — | [capstone](capstone/) | Assemble it all into one interview-ready project |
 | — | [guides](guides/) | Design thinking, S.T.A.R interviews, DevOps mindset |
 
-### Standard module layout
-
-```
-<module>/
-├── README.md        # objectives, setup, how to run + test
-├── requirements.txt # module-local dependencies (if any)
-├── examples/        # commented reference code (instructor demos)
-├── practice/        # exercises with TODOs for you to complete
-└── solution/        # worked answers (peek only after trying!)
-```
+Each module keeps whatever structure fits it: the smaller topics are just a
+README plus a script or two, while the bigger ones (`apis-with-fastapi`,
+`ai-agents-for-devops`) are full project folders. Every module's README has a
+Practice section with something to build yourself.
 
 ---
 
@@ -113,7 +107,7 @@ locally with `llama3.2` pulled — see
 2. Create and activate a virtual environment.
 3. Install dependencies (whole course or per-module).
 4. Work through modules in order, or jump to the topic you need.
-5. Do the `practice/` exercises before peeking at `solution/`.
+5. Try the Practice section in each module's README.
 6. Push your work and share your progress.
 
 ---
