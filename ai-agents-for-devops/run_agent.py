@@ -18,7 +18,7 @@ from langgraph.prebuilt import ToolNode, tools_condition
 
 from log_utils import LEVELS, count_log_levels, read_log_file
 
-APP_LOG = str(Path(__file__).parent.parent / "app.log")
+APP_LOG = str(Path(__file__).parent / "app.log")
 MODEL = os.environ.get("OLLAMA_MODEL", "llama3.2")
 
 SYSTEM_PROMPT = (

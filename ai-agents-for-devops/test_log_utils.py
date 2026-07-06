@@ -23,6 +23,6 @@ def test_no_substring_false_positive():
 
 
 def test_bundled_app_log():
-    app_log = Path(__file__).parent.parent / "app.log"
+    app_log = Path(__file__).parent / "app.log"
     counts = count_log_levels(read_log_file(str(app_log)))
     assert counts == {"INFO": 10, "WARNING": 2, "ERROR": 3}
