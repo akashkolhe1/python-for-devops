@@ -1,6 +1,9 @@
 # Local Claude Code context (not part of the course)
 CLAUDE.md
 
+# Instructor-only material (recording plans, scripts) — not part of the course
+_instructor/
+
 # Virtual environments
 venv/
 env/
